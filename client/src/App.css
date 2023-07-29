@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 10px;
+    flex-basis: calc(33.33% - 40px);
+    /* Limit to three items per row (adjust as needed) */
+    margin: 10px;
+    /* Add some spacing between the items */
+    box-sizing: border-box;
+    /* Include margin in flex-basis calculation */
+}
+
+.cards-div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
